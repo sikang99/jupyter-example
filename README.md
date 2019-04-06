@@ -10,6 +10,11 @@ Jupyter Notebook Example
 - 2018/09/12 [Install Jupyter Notebook and TensorFlow On Ubuntu 18.04 Server](https://thecustomizewindows.com/2018/09/install-jupyter-notebook-and-tensorflow-on-ubuntu-18-04-server/)
 
 
+### Open Source
+- [hsekia/learning-keras](https://github.com/hsekia/learning-keras) 
+
+
+### Usage
 ```
 $ pip install jupyter
 $ jupyter notebook
