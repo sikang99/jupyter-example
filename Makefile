@@ -3,22 +3,19 @@
 #
 #-----------------------------------------------------------------------------------------
 usage:
-	@echo "make [install|video|gst|test|web]"
+	@echo "make [install|run|web]"
 
 install i:
 	sudo apt install python3-notebook python3-jupyter-core python3-jupyter-core
 
-play p:
+run r:
 	jupyter notebook
 #-----------------------------------------------------------------------------------------
 web w:
-	@echo "make (web) [sample]"
+	@echo "make (web) [open]"
 
-web-sample ws:
-	xdg-open http://4youngpadawans.com/gstreamer-real-life-examples/
-
-clean:
-	rm -f test.*
+web-open wo:
+	xdg-open http://localhost:8888
 #-----------------------------------------------------------------------------------------
 git g:
 	@echo "make (git) [update|login|tag|status]"
