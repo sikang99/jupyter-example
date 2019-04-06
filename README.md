@@ -12,6 +12,7 @@ Jupyter Notebook Example
 
 ### Open Source
 - [hsekia/learning-keras](https://github.com/hsekia/learning-keras) 
+    - [How to install Keras to Ubuntu 18.04](https://github.com/hsekia/learning-keras/wiki/How-to-install-Keras-to-Ubuntu-18.04)
 
 
 ### Usage

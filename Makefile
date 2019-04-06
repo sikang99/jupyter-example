@@ -21,11 +21,11 @@ git g:
 	@echo "make (git) [update|login|tag|status]"
 
 git-update gu:
-	git add .gitignore *.md Makefile 
-	git commit -m "initial commit"
 	#git remote remove go.mod sse.go
+	git add .gitignore *.md Makefile 
+	#git commit -m "initial commit"
 	#git commit -m "add examples"
-	#git commit -m "update contents"
+	git commit -m "update contents"
 	git push
 
 git-login gl:
